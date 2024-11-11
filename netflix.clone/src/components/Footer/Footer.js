@@ -13,32 +13,32 @@ const Footer = () => {
             <YouTubeIcon />
         </div>
         <div className='footer_data'>
-            <div>
-                <ul>
-                    <li>Audio Description</li>
-                    <li>Investor Relations</li>
-                    <li>Legal Notices</li>
-                </ul>
-            </div>
-            <div>
+          <div>
             <ul>
-              <li>Help Center</li>
-              <li>Jobs</li>
-              <li>Cookie Preferences</li>
+              <li><a href="/">Audio Description</a></li>
+              <li><a href="/">Investor Relations</a></li>
+              <li><a href="/">Legal Notices</a></li>
             </ul>
           </div>
           <div>
             <ul>
-               <li>Gift Cards</li>
-              <li>Terms of use</li>
-              <li>Corporate Information</li>
+              <li><a href="/">Help Center</a></li>
+              <li><a href="/">Jobs</a></li>
+              <li><a href="/">Cookie Preferences</a></li>
             </ul>
           </div>
           <div>
             <ul>
-               <li>Media Center</li>
-              <li>Prevacy</li>
-              <li>Contact Us</li>  
+              <li><a href="/">Gift Cards</a></li>
+              <li><a href="/">Terms of Use</a></li>
+              <li><a href="/">Corporate Information</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a href="/">Media Center</a></li>
+              <li><a href="/">Privacy</a></li>
+              <li><a href="/">Contact Us</a></li>
             </ul>
           </div>
         </div>
@@ -56,3 +56,8 @@ const Footer = () => {
 }
 
 export default Footer
+
+
+
+
+
